@@ -9,7 +9,7 @@ __Lightbulb used:__
 
 
 __What you need for this project__
-- One or more Tapo Smrt Wi-Fi Light Bulbs
+- One or more Tapo Smart Wi-Fi Light Bulbs
 - Access to your router inorder to get the ip of the bulb
 - A code editor
 - Download the app and create an account.
