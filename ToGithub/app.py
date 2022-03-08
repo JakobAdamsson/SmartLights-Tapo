@@ -4,6 +4,7 @@ from PyP100 import PyL530
 from flask import Flask, jsonify, render_template, request, redirect, url_for
 import requests
 import json
+import time
 
 
 # Instanciate flask app
