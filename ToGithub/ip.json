@@ -1,0 +1,8 @@
+
+{
+    "pi4_ip": [
+        {
+        "ip": "ip of device running the script"
+        }]
+   
+}

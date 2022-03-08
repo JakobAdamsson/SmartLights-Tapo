@@ -1,0 +1,14 @@
+{
+    "bulb1": [
+        {
+        "ip": "bulb ip",
+        "email": "your email",
+        "password": "your password"
+        }],
+    "bulb2": [
+        {
+        "ip": "bulb ip",
+        "email": "your email",
+        "password": "your password"
+         }]
+}
