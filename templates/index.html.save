@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Smart Lights</title>
+
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='JakobStyle.css') }}">
+       
+    </head>
+    <body href="https://cdn.discordapp.com/attachments/685503816774320129/951574324446384159/grey.jpg">
+        
+        <header>
+            
+          <!-------------------------All bulbs---------------------------->
+          <h2>For all lights</h2>
+          <form class="" action# method="POST">
+            <a class="button" type="button" href="/enableall">Turn on all lights</a> <a class="button" type="button" href="/terminateall">Turn off all lights</a>
+            <br>
+            <br>
+            <a class="button" type="button" href="/mys">Turn on mys lights</a>
+          </form>
+          <br>
+  
+        </header>
+        
+  
+      
+        <section class="Bulb_1">
+          <!-------------------------Bulb 1---------------------------->
+              <!-------------------------On and off---------------------------->
+              <form class="" action# method="POST">
+              <h3>Turn on or off lamp 1</h3>
+              <a class="button" type="button" href="/b1on">Turn On</a> <a href="/b1off"><type="button">Turn Off</a>
+              </form>
+              <!-------------------------Lightsettings---------------------------->
+              <form class="" action# method="POST">
+                <p>Change brightness of lamp 1</p>
+                <a class="button" type="button" href="/b1_1">1 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b1_2">2 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b1_3">3 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b1_4">4 %</a>
+                <br>
+                <br>
+                <a class="button" type="button" href="/b1_5">5 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b1_10">10 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b1_20">20 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b1_25">25 %</a>                
+                <br>
+                <br>
+                <a class="button" type="button" href="/b1_30">30 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b1_35">35 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b1_40">40 %</a>&nbsp;&nbsp;&nbsp;&nbsp;  <a class="button" type="button" href="/b1_45">45 %</a>
+                <br>
+                <br>
+                <a class="button" type="button" href="/b1_50">50 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b1_55">55 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b1_60">60 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b1_65">65 %</a>
+                <br>
+                <br>
+                <a class="button" type="button" href="/b1_70">70 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b1_75">75 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b1_80">80 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b1_85">85 %</a>
+                <br>
+                <br>
+                <a class="button" type="button" href="/b1_90">90 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b1_95">95 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b1_100">100 %</a>
+                <br>
+                <br>
+            </section>
+
+
+
+            <!------------------------------------------------------------------------------------------------------------------------------------------->
+            
+            
+
+
+        <section class="Bulb_2">
+          <!-------------------------Bulb 2---------------------------->
+              <!-------------------------On and off---------------------------->
+              <form class="" action# method="POST">
+                <h3>Turn on or off lamp 2</h3>
+                <a class="button" type="button" href="/b2on">Turn On</a> <a href="/b2off"><type="button">Turn Off</a>
+              </form>
+                <!-------------------------Lightsettings---------------------------->
+                <form class="" action# method="POST">
+                  <p>Change brightness of lamp 2</p>
+                  <a class="button" type="button" href="/b2_1">1 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_2">2 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_3">3 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_4">4 %</a>
+                  <br>
+                  <br>
+                  <a class="button" type="button" href="/b2_5">5 %</a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="button" type="button" href="/b2_10">10 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_20">20 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_25">25 %</a>                
+                  <br>
+                  <br>
+                  <a class="button" type="button" href="/b2_30">30 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_35">35 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_40">40 %</a>&nbsp;&nbsp;&nbsp;&nbsp;  <a class="button" type="button" href="/b2_45">45 %</a>
+                  <br>
+                  <br>
+                  <a class="button" type="button" href="/b2_50"> 50 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_55">55 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_60">60 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_65">65 %</a>
+                  <br>
+                  <br>
+                  <a class="button" type="button" href="/b2_70"> 70 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_75">75 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_80">80 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_85">85 %</a>
+                  <br>
+                  <br>
+                  <a class="button" type="button" href="/b2_90"> 90 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_95">95 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_100">100 %</a>
+            </section>
+                  
+            <section class="Bulb_3">
+          <!-------------------------Bulb 1---------------------------->
+              <!-------------------------On and off---------------------------->
+              <form class="" action# method="POST">
+              <h3>Turn on or off lamp 1</h3>
+              <a class="button" type="button" href="/b1on">Turn On</a> <a href="/b1off"><type="button">Turn Off</a>
+              </form>
+              <!-------------------------Lightsettings---------------------------->
+              <form class="" action# method="POST">
+                <p>Change brightness of lamp 1</p>
+                <a class="button" type="button" href="/b1_1">1 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b1_2">2 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b1_3">3 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b1_4">4 %</a>
+                <br>
+                <br>
+                <a class="button" type="button" href="/b1_5">5 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b1_10">10 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b1_20">20 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b1_25">25 %</a>                
+                <br>
+                <br>
+                <a class="button" type="button" href="/b1_30">30 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b1_35">35 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b1_40">40 %</a>&nbsp;&nbsp;&nbsp;&nbsp;  <a class="button" type="button" href="/b1_45">45 %</a>
+                <br>
+                <br>
+                <a class="button" type="button" href="/b1_50"> 50 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b1_55">55 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b1_60">60 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b1_65">65 %</a>
+                <br>
+                <br>
+                <a class="button" type="button" href="/b1_70"> 70 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b1_75">75 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b1_80">80 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b1_85">85 %</a>
+                <br>
+                <br>
+                <a class="button" type="button" href="/b1_90"> 90 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b1_95">95 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b1_100">100 %</a>
+                <br>
+                <br>
+            </section>
+
+            <section class="Bulb_4">
+          <!-------------------------Bulb 2---------------------------->
+              <!-------------------------On and off---------------------------->
+              <form class="" action# method="POST">
+                <h3>Turn on or off lamp 2</h3>
+                <a class="button" type="button" href="/b2on">Turn On</a> <a href="/b2off"><type="button">Turn Off</a>
+              </form>
+                <!-------------------------Lightsettings---------------------------->
+                <form class="" action# method="POST">
+                  <p>Change brightness of lamp 2</p>
+                  <a class="button" type="button" href="/b2_1">1 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_2">2 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_3">3 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_4">4 %</a>
+                  <br>
+                  <br>
+                  <a class="button" type="button" href="/b2_5">5 %</a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="button" type="button" href="/b2_10">10 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_20">20 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_25">25 %</a>                
+                  <br>
+                  <br>
+                  <a class="button" type="button" href="/b2_30">30 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_35">35 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_40">40 %</a>&nbsp;&nbsp;&nbsp;&nbsp;  <a class="button" type="button" href="/b2_45">45 %</a>
+                  <br>
+                  <br>
+                  <a class="button" type="button" href="/b2_50"> 50 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_55">55 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_60">60 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_65">65 %</a>
+                  <br>
+                  <br>
+                  <a class="button" type="button" href="/b2_70"> 70 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_75">75 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_80">80 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_85">85 %</a>
+                  <br>
+                  <br>
+            <section class="Bulb_5">
+          <!-------------------------Bulb 2---------------------------->
+              <!-------------------------On and off---------------------------->
+              <form class="" action# method="POST">
+                <h3>Turn on or off lamp 2</h3>
+                <a class="button" type="button" href="/b2on">Turn On</a> <a href="/b2off"><type="button">Turn Off</a>
+              </form>
+                <!-------------------------Lightsettings---------------------------->
+                <form class="" action# method="POST">
+                  <p>Change brightness of lamp 2</p>
+                  <a class="button" type="button" href="/b2_1">1 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_2">2 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_3">3 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_4">4 %</a>
+                  <br>
+                  <br>
+                  <a class="button" type="button" href="/b2_5">5 %</a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="button" type="button" href="/b2_10">10 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_20">20 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_25">25 %</a>                
+                  <br>
+                  <br>
+                  <a class="button" type="button" href="/b2_30">30 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_35">35 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_40">40 %</a>&nbsp;&nbsp;&nbsp;&nbsp;  <a class="button" type="button" href="/b2_45">45 %</a>
+                  <br>
+                  <br>
+                  <a class="button" type="button" href="/b2_50"> 50 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_55">55 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_60">60 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_65">65 %</a>
+                  <br>
+                  <br>
+                  <a class="button" type="button" href="/b2_70"> 70 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_75">75 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_80">80 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_85">85 %</a>
+                  <br>
+                  <br>
+                  <a class="button" type="button" href="/b2_90"> 90 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_95">95 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_100">100 %</a>
+                  <!-------------------------Timers---------------------------->
+                  <br>
+                  <br>
+                  <p>Set timers of lamp 2 (brightness increasing)</p>
+                  <a class="button" type="button" href="/t2_60">Set 60 minute timer</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/t2_30">Set 30 minute timer</a>
+                  <br>
+                  <br>
+            </section>
+                  
+            <section class="Bulb_6">
+          <!-------------------------Bulb 2---------------------------->
+              <!-------------------------On and off---------------------------->
+              <form class="" action# method="POST">
+                <h3>Turn on or off lamp 2</h3>
+                <a class="button" type="button" href="/b2on">Turn On</a> <a href="/b2off"><type="button">Turn Off</a>
+              </form>
+                <!-------------------------Lightsettings---------------------------->
+                <form class="" action# method="POST">
+                  <p>Change brightness of lamp 2</p>
+                  <a class="button" type="button" href="/b2_1">1 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_2">2 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_3">3 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_4">4 %</a>
+                  <br>
+                  <br>
+                  <a class="button" type="button" href="/b2_5">5 %</a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="button" type="button" href="/b2_10">10 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_20">20 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_25">25 %</a>                
+                  <br>
+                  <br>
+                  <a class="button" type="button" href="/b2_30">30 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_35">35 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_40">40 %</a>&nbsp;&nbsp;&nbsp;&nbsp;  <a class="button" type="button" href="/b2_45">45 %</a>
+                  <br>
+                  <br>
+                  <a class="button" type="button" href="/b2_50"> 50 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_55">55 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_60">60 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_65">65 %</a>
+                  <br>
+                  <br>
+                  <a class="button" type="button" href="/b2_70"> 70 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_75">75 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_80">80 %</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_85">85 %</a>
+                  <br>
+                  <br>
+                  <a class="button" type="button" href="/b2_90"> 90 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_95">95 %</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/b2_100">100 %</a>
+                  <!-------------------------Timers---------------------------->
+                  <br>
+                  <br>
+                  <p>Set timers of lamp 2 (brightness increasing)</p>
+                  <a class="button" type="button" href="/t2_60">Set 60 minute timer</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="button" type="button" href="/t2_30">Set 30 minute timer</a>
+                  <br>
+                  <br>
+            </section>
+        
+        <footer class="foot2">
+            
+        </footer>
+        
+    </body>
+</html>
